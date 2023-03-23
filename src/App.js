@@ -1,6 +1,7 @@
 import './App.css';
 import Blog from './blog/Blog/Blog';
 import Mobile from './moblie/Mobile';
+import Todos from './todo/Todos/Todos';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Blog heading={'This is 2nd Heading'} author ={'Jibon'}></Blog>
      <Blog heading={'This is 3rd Heading'} author ={'Antor'}></Blog>
      <Mobile></Mobile>
+     <Todos></Todos>
     </div>
   );
 }
@@ -40,4 +42,7 @@ than other frameworks like Angular.js.
     </div>
   )
 }
+
+
+
 export default App;
